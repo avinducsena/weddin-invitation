@@ -1,0 +1,8 @@
+{
+  "name": "Avindu & Yavishka Wedding Celebration",
+  "description": "Royal digital wedding invitation and celebration portal for Avindu & Yavishka with wax-sealed envelope reveal, live countdown, photo gallery, location guide, and private RSVP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

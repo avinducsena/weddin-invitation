@@ -1,0 +1,75 @@
+{
+  "admin": {
+    "usernameHash": "a0e657f9708bb575de4b537b7fb895400abb553239b57ed129c1aac0f7467ce2",
+    "passwordHash": "0a85b684588cc89509ab6ab481fb5f5c2d3a5aea4b08d8fe9d0d0dc20dfc804e"
+  },
+  "wedding": {
+    "coupleNames": "Avindu & Yavishka",
+    "groomName": "Avindu",
+    "brideName": "Yavishka",
+    "date": "2027-01-20",
+    "dateFormatted": "Wednesday, January 20, 2027",
+    "poruwaTime": "9:42 AM",
+    "ceremonyTime": "9:00 AM – 3:30 PM",
+    "venueName": "Ruwanara Royal Majesty",
+    "venueCity": "Narammala, Sri Lanka",
+    "mapsUrl": "https://www.google.com/maps/place/Ruwanara+Royal+Majestry/@7.4096942,80.2057845,17z/data=!3m1!4b1!4m9!3m8!1s0x3ae323a00180e845:0x1d5459078a749b5a!5m2!4m1!1i2!8m2!3d7.4096942!4d80.2057845!16s%2Fg%2F11fctc63w2!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MTAxMi4wIKXMDSoASAFQAw%3D%3D",
+    "contactAvindu": "0789481126",
+    "contactYavishka": "0760178126",
+    "heroImage": "/src/assets/images/wedding_hero_banner_1792088294742.jpg",
+    "gallery": [
+      {
+        "id": "gal-1",
+        "title": "Eternal Promise",
+        "category": "Ceremony Moments",
+        "caption": "Surrounded by blooming white roses, beginning our journey of everlasting love.",
+        "imageUrl": "/src/assets/images/wedding_hero_banner_1792088294742.jpg"
+      },
+      {
+        "id": "gal-2",
+        "title": "A Garden Walk",
+        "category": "Love Story",
+        "caption": "Walking hand in hand through the serene paths of love and endless happiness.",
+        "imageUrl": "/src/assets/images/couple_romantic_stroll_1792088296007.jpg"
+      },
+      {
+        "id": "gal-3",
+        "title": "Golden Bond",
+        "category": "Pre-Shoot",
+        "caption": "Two golden rings, a bouquet of white roses, and hearts beating as one.",
+        "imageUrl": "/src/assets/images/couple_rings_hands_1792088296866.jpg"
+      },
+      {
+        "id": "gal-4",
+        "title": "Royal Banquet Setting",
+        "category": "Celebration",
+        "caption": "Majestic chandeliers, golden candlelights, and joyful reunions at Ruwanara Royal Majesty.",
+        "imageUrl": "/src/assets/images/wedding_venue_reception_1792088296294.jpg"
+      }
+    ]
+  },
+  "rsvps": [
+    {
+      "id": "rsvp-seed-1",
+      "name": "Bandara Senanayaka & Family",
+      "email": "bandara.s@example.com",
+      "phone": "0771234567",
+      "attendance": "attending",
+      "guestsCount": 4,
+      "dietary": "Traditional Sri Lankan / Vegetarian options",
+      "wishes": "Wishing dear Avindu and Yavishka the most blessed, joyous, and prosperous marriage!",
+      "submittedAt": "2026-10-13T18:25:13.933Z"
+    },
+    {
+      "id": "rsvp-seed-2",
+      "name": "Dr. Kusal Kodikara",
+      "email": "kusal.k@example.com",
+      "phone": "0719876543",
+      "attendance": "attending",
+      "guestsCount": 2,
+      "dietary": "No restrictions",
+      "wishes": "Congratulations both of you! Looking forward to celebrating this royal day together.",
+      "submittedAt": "2026-10-14T18:25:13.933Z"
+    }
+  ]
+}

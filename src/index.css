@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-serif-luxury {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+  .font-royal {
+    font-family: 'Cinzel', serif;
+  }
+  .font-script {
+    font-family: 'Pinyon Script', cursive;
+  }
+  .font-signature {
+    font-family: 'Great Vibes', cursive;
+  }
+
+  .text-gold-gradient {
+    background: linear-gradient(135deg, #8B6508 0%, #B8860B 25%, #D4AF37 50%, #C5A059 75%, #7D5700 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .border-gold-subtle {
+    border-color: rgba(212, 175, 55, 0.35);
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.88);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    box-shadow: 0 10px 30px -5px rgba(184, 134, 11, 0.08), 0 4px 10px rgba(0, 0, 0, 0.03);
+  }
+
+  .glass-card-darker {
+    background: rgba(255, 253, 248, 0.95);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(197, 160, 89, 0.45);
+    box-shadow: 0 14px 40px -8px rgba(184, 134, 11, 0.12);
+  }
+
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+}
+
+/* Elegant keyframe animations */
+@keyframes goldShimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes foilGlint {
+  0% { transform: translateX(-150%) rotate(45deg); }
+  50%, 100% { transform: translateX(250%) rotate(45deg); }
+}
+
+@keyframes goldPulse {
+  0%, 100% { box-shadow: 0 0 15px rgba(212, 175, 55, 0.35); }
+  50% { box-shadow: 0 0 30px rgba(212, 175, 55, 0.7); }
+}
+
+.gold-shimmer {
+  background: linear-gradient(90deg, #D4AF37 0%, #FFF3BF 50%, #D4AF37 100%);
+  background-size: 200% auto;
+  animation: goldShimmer 4s ease-in-out infinite;
+}
+
+.foil-glint-effect {
+  position: relative;
+  overflow: hidden;
+}
+.foil-glint-effect::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    60deg,
+    transparent 35%,
+    rgba(255, 248, 220, 0.4) 50%,
+    transparent 65%
+  );
+  animation: foilGlint 6s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.poruwa-pulse {
+  animation: goldPulse 3s ease-in-out infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F5EFEB;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B8860B;
+}
